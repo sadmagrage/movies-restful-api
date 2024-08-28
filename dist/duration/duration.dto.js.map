@@ -1,0 +1,1 @@
+{"version":3,"file":"duration.dto.js","sourceRoot":"","sources":["../../src/duration/duration.dto.ts"],"names":[],"mappings":";;;AAAA,MAAa,WAAW;IAIpB,UAAU;QACN,IAAI,OAAO,GAAG,IAAI,CAAC,OAAO,CAAC;QAE3B,OAAO,IAAI,IAAI,CAAC,KAAK,GAAG,EAAE,CAAC;QAE3B,MAAM,OAAO,GAAG,OAAO,GAAG,EAAE,CAAC;QAE7B,MAAM,eAAe,GAAG,OAAO,CAAC,QAAQ,EAAE,CAAC;QAE3C,OAAO,eAAe,CAAC;IAC3B,CAAC;CACJ;AAfD,kCAeC"}
