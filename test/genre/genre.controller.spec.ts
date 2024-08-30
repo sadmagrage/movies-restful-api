@@ -19,20 +19,6 @@ describe('GenreController', () => {
     let genreService: GenreService;
 
     beforeAll(async () => {
-        // const mockAuthGuard: CanActivate = { canActivate: jest.fn().mockImplementation(
-        //     context => {
-        //         const req: Request = context.switchToHttp().getRequest();
-
-        //         let token = req.headers["authorization"];
-
-        //         token = token.replace('Bearer ', '');
-
-        //         req['user'] = { username: 'username' };
-
-        //         return token ? true : false;
-        //     }
-        // ) };
-
         const mockAuthGuard: CanActivate = { canActivate: jest.fn().mockReturnValue(true) };
 
         const mockRoleGuard: CanActivate = { canActivate: jest.fn().mockReturnValue(true) };

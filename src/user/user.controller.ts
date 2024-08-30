@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Post, Res } from "@nestjs/common";
+import { Body, Controller, Post, Res } from "@nestjs/common";
 import { UserService } from "./user.service";
 import { UserDto } from "./user.dto";
 import { Response } from "express";
