@@ -10,6 +10,7 @@ import { UserModule } from './user/user.module';
 import { User } from './user/user.entity';
 import { JwtModule } from '@nestjs/jwt';
 import { RedisModule } from './redis/redis.module';
+import { AppController } from './app.controller';
 
 @Module({
   imports: [
@@ -36,5 +37,6 @@ import { RedisModule } from './redis/redis.module';
     UserModule,
     RedisModule
   ],
+  controllers: [AppController]
 })
 export class AppModule {}

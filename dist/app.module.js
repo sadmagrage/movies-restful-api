@@ -19,6 +19,7 @@ const user_module_1 = require("./user/user.module");
 const user_entity_1 = require("./user/user.entity");
 const jwt_1 = require("@nestjs/jwt");
 const redis_module_1 = require("./redis/redis.module");
+const app_controller_1 = require("./app.controller");
 let AppModule = class AppModule {
 };
 exports.AppModule = AppModule;
@@ -43,6 +44,7 @@ exports.AppModule = AppModule = __decorate([
             user_module_1.UserModule,
             redis_module_1.RedisModule
         ],
+        controllers: [app_controller_1.AppController]
     })
 ], AppModule);
 //# sourceMappingURL=app.module.js.map
